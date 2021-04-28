@@ -3,20 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Todo App</title>
   </head>
   <body>
     <h1>Todo App</h1>
-    <form action="">
-      <input type="text" autocomplete="off" />
-      <button>Create item</button>
+    <form id="form">
+      <input id="field" type="text" autocomplete="off" />
+      <button id="create">Create item</button>
     </form>
 
     <h3>Need To Do</h3>
-    <ul>
-      <li>Buy Carrots<button>Delete</button></li>
-      <li>Buy Apples<button>Delete</button></li>
-      <li>Buy Lettuce<button>Delete</button></li>
-    </ul>
+    <ul id="list"></ul>
+
+    <script src="index.js"></script>
   </body>
 </html>
